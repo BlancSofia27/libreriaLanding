@@ -20,7 +20,19 @@ export default {
       },
       fontStyle:{
         regular:'normal',
-      }
+      },
+      theme: {
+        extend: {
+          transitionProperty: {
+            'filter': 'filter',
+          },
+        },
+      },
+      variants: {
+        extend: {
+          filter: ['hover', 'group-hover'],
+        },
+      },
     },
   },
   plugins: [],
