@@ -52,12 +52,11 @@ export default function Landing() {
               onClick={scrollToWebExamples}
               className="mr-5 hover:text-gray-900 cursor-pointer"
             >
-              Nuestras Webs
+              Nuestros Templates
             </a>
             <a onClick={scrollToFooter} className="mr-5 hover:text-gray-900 cursor-pointer">
               Contacto
             </a>
-            <a className="mr-5 hover:text-gray-900 cursor-pointer">Fourth Link</a>
           </nav>
           {/*button whatsapp*/}
           <button
