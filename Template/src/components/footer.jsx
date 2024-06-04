@@ -1,5 +1,5 @@
 import React from "react"
-
+import logoBunny from '../../public/logo.png'
 const Footer = React.forwardRef((props, ref) => {
   return (
     <footer ref={ref} id="footer" className="text-gray-600 body-font">
@@ -9,7 +9,7 @@ const Footer = React.forwardRef((props, ref) => {
             <div className="w-14 bg-celeste rounded-full overflow-hidden">
               <img
                 className="w-full h-full object-cover"
-                src="../../public/logo.png"
+                src={logoBunny}
                 alt=""
               />
             </div>

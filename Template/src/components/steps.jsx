@@ -1,4 +1,5 @@
 import React from "react"
+import imgDemo from '../../public/imgDemo.png'
 const Steps = React.forwardRef((props, ref) => {
   return (
     <section ref={ref} id="steps" className="text-gray-600 body-font bg-greyStep">
@@ -177,7 +178,7 @@ const Steps = React.forwardRef((props, ref) => {
           </div>
           <img
             className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
-            src="../../public/imgDemo.png"
+            src={imgDemo}
             alt="step"
           />
         </div>

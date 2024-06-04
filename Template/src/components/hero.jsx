@@ -1,3 +1,5 @@
+
+import mollyHero from '../../public/molly1.png'
 export default function Hero() {
   return (
     <section className="text-gray-600 body-font bg-whitee rounded-bl-[25px]">
@@ -6,7 +8,7 @@ export default function Hero() {
           <img
             className="object-cover object-center rounded-xl"
             alt="hero"
-            src="/public/molly1.png"
+            src={mollyHero}
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

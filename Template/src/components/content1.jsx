@@ -1,4 +1,10 @@
 import React from 'react';
+import inv1 from '../../public/1.png'
+import inv2 from '../../public/2.png'
+import inv3 from '../../public/3.png'
+import inv4 from '../../public/4.png'
+import inv5 from '../../public/5.png'
+import inv6 from '../../public/6.png'
 
 const Content1 = React.forwardRef((props, ref) => {
   return (
@@ -18,7 +24,7 @@ const Content1 = React.forwardRef((props, ref) => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 sm:w-1/2 md:w-1/2 lg:w-1/3 flex">
         <div className="flex flex-col text-center items-center bg-greyStep bg-opacity-45 rounded-lg p-4 w-full">
-          <img className="w-1/4 rounded-full " src="../../public/1.png" alt="" />
+          <img className="w-1/4 rounded-full " src={inv1} alt="" />
           <div className="flex-grow">
             <h2 className="text-gray-900 text-xl title-font font-medium my-4">Identidad de Marca Clara</h2>
             <p className="leading-relaxed text-sm">
@@ -29,7 +35,7 @@ const Content1 = React.forwardRef((props, ref) => {
       </div>
       <div className="p-4 sm:w-1/2 md:w-1/2 lg:w-1/3 flex">
         <div className="flex flex-col text-center items-center bg-greyStep bg-opacity-45 rounded-lg p-4 w-full">
-          <img className="w-1/4 rounded-full " src="../../public/2.png" alt="" />
+          <img className="w-1/4 rounded-full " src={inv2} alt="" />
           <div className="flex-grow">
             <h2 className="text-gray-900 text-xl title-font font-medium my-4">Optimización de ventas</h2>
             <p className="leading-relaxed text-sm">
@@ -40,7 +46,7 @@ const Content1 = React.forwardRef((props, ref) => {
       </div>
       <div className="p-4 sm:w-1/2 md:w-1/2 lg:w-1/3 flex">
         <div className="flex flex-col text-center items-center bg-greyStep bg-opacity-45 rounded-lg p-4 w-full">
-          <img className="w-1/4 rounded-full " src="../../public/3.png" alt="" />
+          <img className="w-1/4 rounded-full " src={inv3} alt="" />
           <div className="flex-grow">
             <h2 className="flex items-center justify-center text-gray-900 text-xl title-font font-medium my-4">Llamada a la acción</h2>
             <p className="leading-relaxed text-sm">
@@ -51,7 +57,7 @@ const Content1 = React.forwardRef((props, ref) => {
       </div>
       <div className="p-4 sm:w-1/2 md:w-1/2 lg:w-1/3 flex">
         <div className="flex flex-col text-center items-center bg-greyStep bg-opacity-45 rounded-lg p-4 w-full">
-          <img className="w-1/4 rounded-full" src="../../public/4.png" alt="" />
+          <img className="w-1/4 rounded-full" src={inv4} alt="" />
           <div className="flex-grow">
             <h2 className="text-gray-900 text-xl title-font font-medium my-4">Enfoque en la Experiencia del Usuario</h2>
             <p className="leading-relaxed text-sm">
@@ -62,7 +68,7 @@ const Content1 = React.forwardRef((props, ref) => {
       </div>
       <div className="p-4 sm:w-1/2 md:w-1/2 lg:w-1/3 flex">
         <div className="flex flex-col text-center items-center bg-greyStep bg-opacity-45 rounded-lg p-4 w-full">
-          <img className="w-1/4 rounded-full" src="../../public/5.png" alt="" />
+          <img className="w-1/4 rounded-full" src={inv5} alt="" />
           <div className="flex-grow">
             <h2 className="flex items-center justify-center text-gray-900 text-xl title-font font-medium my-4">Accesibilidad Global</h2>
             <p className="leading-relaxed text-sm">
@@ -73,7 +79,7 @@ const Content1 = React.forwardRef((props, ref) => {
       </div>
       <div className="p-4 sm:w-1/2 md:w-1/2 lg:w-1/3 flex">
         <div className="flex flex-col text-center items-center bg-greyStep bg-opacity-45 rounded-lg p-4 w-full">
-          <img className="w-1/4 rounded-full" src="../../public/6.png" alt="" />
+          <img className="w-1/4 rounded-full" src={inv6} alt="" />
           <div className="flex-grow">
             <h2 className="flex items-center justify-center text-gray-900 text-xl title-font font-medium my-4">Costo-Efectividad</h2>
             <p className="leading-relaxed text-sm">
