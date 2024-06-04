@@ -5,6 +5,7 @@ import Hero from "../components/hero"
 import Steps from "../components/steps"
 import WebExamples from "../components/webExamples"
 import { useRef } from "react"
+import logoBunny from "../../public/logo.png"
 
 export default function Landing() {
   const contentRef = useRef(null)
@@ -35,7 +36,7 @@ export default function Landing() {
             <div className="w-14 bg-celeste rounded-full overflow-hidden">
               <img
                 className="w-full h-full object-cover"
-                src="../../public/logo.png"
+                src={logoBunny}
                 alt=""
               />
             </div>
