@@ -8,6 +8,7 @@ export default {
         smooke: "#C4C4C4",
         whitee:"#D4D4D4",
         greyStep:"#E8E8E8",
+        marronB:"#554c4c"
       },
       fraction: {
         '1/10': '10%',
@@ -32,6 +33,15 @@ export default {
         extend: {
           filter: ['hover', 'group-hover'],
         },
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 1.5s ease-in-out',
       },
     },
   },
