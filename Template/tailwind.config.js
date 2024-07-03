@@ -8,7 +8,12 @@ export default {
         smooke: "#C4C4C4",
         whitee:"#D4D4D4",
         greyStep:"#E8E8E8",
-        marronB:"#554c4c"
+        marronB:"#554c4c",
+        roseC:"#FFD1F5",
+        roseeC:"#FFE8FB",
+        rose3:"#FF16D6",
+        rose2:"#FF6CE5",
+        rose1:"#FFA4EF"
       },
       fraction: {
         '1/10': '10%',
