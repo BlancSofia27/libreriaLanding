@@ -13,19 +13,23 @@ export default {
         roseeC:"#FFE8FB",
         rose3:"#FF16D6",
         rose2:"#FF6CE5",
-        rose1:"#FFA4EF"
+        rose1:"#FFA4EF",
+        celesteT:'#1673FF'
       },
       fraction: {
         '1/10': '10%',
       },
       fontFamily: {
         regular: ['Poppins', 'sans-serif'],
+        clear:['DM Sans', 'sans-serif']
       },
       fontWeight: {
         regular: 400,
+        clear:400,
       },
       fontStyle:{
         regular:'normal',
+        clear:'normal'
       },
       theme: {
         extend: {

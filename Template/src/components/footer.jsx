@@ -3,17 +3,17 @@ import logoBunny from '../../public/logo.png'
 const Footer = React.forwardRef((props, ref) => {
   return (
     <footer ref={ref} id="footer" className="text-gray-600 body-font">
-      <div className="container px-5 py-7 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+      <div className=" container px-5 py-7 mx-auto  md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col hidden sm:block">
+        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10 md:items-center md:justify-center">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <div className="w-14 bg-celeste rounded-full overflow-hidden">
+            <div className=" bg-celeste rounded-full overflow-hidden sm:w-20 md:w-10">
               <img
                 className="w-full h-full object-cover"
                 src={logoBunny}
                 alt=""
               />
             </div>
-            <span className="ml-3 text-xl">ClearBunny</span>
+            <span className="ml-3 text-xl sm:text-3xl">ClearBunny</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
             Potencia tus ventas mediante la tecnologia

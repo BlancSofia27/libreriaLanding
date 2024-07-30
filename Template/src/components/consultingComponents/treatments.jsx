@@ -17,8 +17,8 @@ const Treatments = React.forwardRef((props, ref) =>{
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={labios}/>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
+            <h2 className="title-font font-medium text-lg text-gray-900">Xlips</h2>
+            <h3 className="text-gray-500 mb-3">diseno de labios</h3>
             <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span className="inline-flex">
               <a className="text-gray-500">
@@ -44,8 +44,8 @@ const Treatments = React.forwardRef((props, ref) =>{
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={menton}/>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
-            <h3 className="text-gray-500 mb-3">Designer</h3>
+            <h2 className="title-font font-medium text-lg text-gray-900">Menton</h2>
+            <h3 className="text-gray-500 mb-3">proyeccion del menton</h3>
             <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span className="inline-flex">
               <a className="text-gray-500">
@@ -71,8 +71,8 @@ const Treatments = React.forwardRef((props, ref) =>{
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={pomulos}/>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
-            <h3 className="text-gray-500 mb-3">UI Developer</h3>
+            <h2 className="title-font font-medium text-lg text-gray-900">Marcacion mandibular</h2>
+            <h3 className="text-gray-500 mb-3">proyeccion de la mandibula</h3>
             <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span className="inline-flex">
               <a className="text-gray-500">
@@ -98,8 +98,8 @@ const Treatments = React.forwardRef((props, ref) =>{
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
           <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={nariz}/>
           <div className="flex-grow sm:pl-8">
-            <h2 className="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
-            <h3 className="text-gray-500 mb-3">Designer</h3>
+            <h2 className="title-font font-medium text-lg text-gray-900">Rinoremodelacion</h2>
+            <h3 className="text-gray-500 mb-3">correccion de nariz</h3>
             <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span className="inline-flex">
               <a className="text-gray-500">

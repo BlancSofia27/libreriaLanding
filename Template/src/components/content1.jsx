@@ -10,8 +10,8 @@ const Content1 = React.forwardRef((props, ref) => {
   return (
     <section ref={ref} id="content" className="text-gray-600 body-font w-full">
   <div className="w-full px-5 py-5 mx-auto">
-    <div className="text-center mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+    <div className="text-center mb-20 sm:mb-5 sm:py-6">
+      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 lg:text-xl">
         En la actualidad una landing Page es crucial para tu negocio o emprendimiento
       </h1>
       <p className="text-xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">

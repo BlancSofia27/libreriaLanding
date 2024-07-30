@@ -21,8 +21,7 @@ const BeforeAfterSlider = ({ beforeImage, afterImage }) => {
   return (
     <div
       ref={containerRef}
-      className="relative overflow-hidden"
-      style={{ width: '600px', height: '360px' }}
+      className="w-full h-full relative overflow-hidden"
       onMouseMove={handleMouseMove}
       onTouchMove={handleTouchMove}
     >
@@ -46,5 +45,6 @@ const BeforeAfterSlider = ({ beforeImage, afterImage }) => {
 };
 
 export default BeforeAfterSlider;
+
 
 
